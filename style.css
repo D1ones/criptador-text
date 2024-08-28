@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.cabecalho {
+    width: Hug (120px)px;
+    height: Hug (48px)px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+    opacity: 0px;
+    
+}
+
+.cabecalho .logo {
+    height: 48px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.input-section, .output-section {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.conteudo__baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.conteudo__aviso {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.conteudo__aviso img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botao {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao1 {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.botao2 {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.botao3 {
+    background-color: #ffc107;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.output-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.output-section img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.h2, .texto, #outputText, .botao3 {
+    display: none;
+}
+
+.h2.visible, .texto.visible, #outputText.visible, .botao3.visible {
+    display: block;
+}
+
+.h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-size: 16px;
+    margin-bottom: 20px;
+}

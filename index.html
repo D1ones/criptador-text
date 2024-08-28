@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/black-cat.png" type="image/x-icon">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="assets/Vector.png" alt="logo da alura" class="logo">
+    </header>
+    <main class="conteudo">
+        <div class="input-section">
+            <h1 class="titulo">Digite seu texto</h1>
+            <textarea id="inputText" class="textarea" placeholder="Digite o texto aqui..."></textarea>
+            <div class="conteudo__baixo"> 
+                <div class="conteudo__aviso">
+                    <img src="assets/bi_exclamation-circle-fill.png" alt="icon">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes">
+                    <button class="botao botao1" onclick="criptografar()">Criptografar</button>
+                    <button class="botao botao2" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+        <div class="output-section" id="resultado">
+            <img src="assets/High quality products 1 1.png" alt="Imagem ilustrativa" id="illustration">
+            <h2 class="h2">Seu texto está criptografado ou Descriptografado</h2>
+            <p class="texto">Agora é só copiar e compartilhar nosso sit com amigos!!</p>
+            <textarea id="outputText" class="textarea" placeholder="Resultado..." readonly></textarea>
+            <button class="botao botao3" onclick="copiarTexto()">Copiar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
